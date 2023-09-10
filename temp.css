@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box; 
+}
+
+body{
+    background-image: url(background\ img.png) ;  
+    background-size: 250vh 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.main {
+    background-color: rgba(3, 132, 172, 0.678);
+    color: rgb(255, 255, 255);
+    width: 40%;
+    height: 430px;
+    border: 1px solid rgb(58, 58, 189);
+    border-radius: 2%;
+    margin-top: 7%;
+    margin-left: 30%;
+    box-shadow: 4px 4px rgb(64, 64, 122);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin: 1px 1px 1px 67px;
+    font-size: 20px;
+}
+
+.title img {
+    width: 41px;
+    height: 31px;
+
+}
+
+input[type=number] {
+    width: 338px;
+    height: 21px;
+    margin: 28px 1px 1px 70px;
+    padding: 19px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+}
+
+#celcius img {
+    width: 41px;
+    height: 31px;
+    margin: 5px 1px -11px -54px;
+    padding: 1px;
+}
+
+#fahrenheit img {
+    width: 41px;
+    height: 31px;
+    margin: 5px 1px -11px -54px;
+    padding: 1px;
+}
+
+#kelvin img {
+    width: 41px;
+    height: 31px;
+    margin: 5px 1px -11px -51px;
+    padding: 1px;
+}
+
+#btn {
+    align-items: center;
+    width: 150px;
+    height: 31px;
+    margin: 35px 1px 1px 177px;
+    border-radius: 5px;
+    background-color: azure;
+    font-size: 25px;
+    background-color: goldenrod;
+    color: white;
+    transform-origin: .3s;
+    border-color:goldenrod ;
+}
+ @media (max-width: 800px)
+ {
+    body {
+        background-image: url(background\ img.png);
+        background-size: 250vh 100vh;
+        background-repeat: no-repeat;    
+    }
+        .main {
+            background-color: rgb(58, 58, 189);
+            color: aliceblue;
+            width: 80%;
+            height: 50%;
+            border: 1px solid black;
+            border-radius: 2%;
+            margin-top: 3%;
+            margin-left: 4%;
+            box-shadow: 4px 4px rgb(64, 64, 122);
+        }
+    
+        .title {
+            display: flex;
+            align-items: center;
+            margin: 1px 1px 1px 50px;
+            font-size: 15px;
+        }
+    
+        .title img {
+            width: 41px;
+            height: 31px;
+    
+        }
+    
+        input[type=number] {
+            width: 190px;
+            height: 21px;
+            margin: 28px 1px 1px 50px;
+            padding: 19px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+    
+        #celcius img {
+            width: 41px;
+            height: 31px;
+            margin: 5px 1px -11px -54px;
+            padding: 1px;
+        }
+    
+        #fahrenheit img {
+            width: 41px;
+            height: 31px;
+            margin: 5px 1px -11px -54px;
+            padding: 1px;
+        }
+    
+        #kelvin img {
+            width: 41px;
+            height: 31px;
+            margin: 5px 1px -11px -51px;
+            padding: 1px;
+        }
+    
+        #btn {
+            align-items: center;
+            width: 150px;
+            height: 31px;
+            margin: 28px 1px 1px 70px;
+            border-radius: 5px;
+            font-size: 25px;
+            background-color: goldenrod;
+            color: white;
+            transform-origin: .3s;
+            border-color: goldenrod;
+        }
+ }
+
+@media (min-width: 481px) and (max-width: 767px){
+    * {
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url(background\ img.png);
+            background-size: 250vh 100vh;
+            background-repeat: no-repeat;
+        }
+        .main {
+            background-color: rgb(58, 58, 189);
+            color: aliceblue; width: 80%;
+            height: 50%;
+            border: 1px solid black;
+            border-radius: 2%;
+            margin-top: 3%;
+            margin-left: 4%;
+            box-shadow: 4px 4px rgb(64, 64, 122);
+        }
+    
+        .title {
+            display: flex;
+            align-items: center;
+            margin: 1px 1px 1px 50px;
+            font-size: 15px;
+        }
+    
+        .title img {
+            width: 41px;
+            height: 31px;
+    
+        }
+    
+        input[type=number] {
+            width: 260px;
+            height: 21px;
+            margin: 28px 1px 1px 50px;
+            padding: 19px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+    
+        #celcius img {
+            width: 41px;
+            height: 31px;
+            margin: 5px 1px -11px -54px;
+            padding: 1px;
+        }
+    
+        #fahrenheit img {
+            width: 41px;
+            height: 31px;
+            margin: 5px 1px -11px -54px;
+            padding: 1px;
+        }
+    
+        #kelvin img {
+            width: 41px;
+            height: 31px;
+            margin: 5px 1px -11px -51px;
+            padding: 1px;
+        }
+    
+        #btn {
+            align-items: center;
+            width: 150px;
+            height: 31px;
+            margin: 28px 1px 1px 110px;
+            border-radius: 5px;
+            font-size: 25px;
+            background-color: goldenrod;
+                color: white;
+                transform-origin: .3s;
+                border-color: goldenrod;
+        }
+ }
+@media (min-width: 768px) and (max-width: 1024px){
+        * {
+                box-sizing: border-box;
+            }
+         body {
+             background-image: url(background\ img.png);
+             background-size: 250vh 100vh;
+             background-repeat: no-repeat;
+        }
+            .main {
+                background-color: rgb(58, 58, 189);
+                color: aliceblue;
+                width: 80%;
+                height: 50%;
+                border: 1px solid black;
+                border-radius: 2%;
+                margin-top: 3%;
+                margin-left: 4%;
+                box-shadow: 4px 4px rgb(64, 64, 122);
+            }
+        
+            .title {
+                display: flex;
+                align-items: center;
+                margin: 1px 1px 1px 50px;
+                font-size: 15px;
+            }
+        
+            .title img {
+                width: 41px;
+                height: 31px;
+        
+            }
+        
+            input[type=number] {
+                width: 260px;
+                height: 21px;
+                margin: 28px 1px 1px 50px;
+                padding: 19px;
+                border-radius: 5px;
+                font-size: 18px;
+            }
+        
+            #celcius img {
+                width: 41px;
+                height: 31px;
+                margin: 5px 1px -11px -54px;
+                padding: 1px;
+            }
+        
+            #fahrenheit img {
+                width: 41px;
+                height: 31px;
+                margin: 5px 1px -11px -54px;
+                padding: 1px;
+            }
+        
+            #kelvin img {
+                width: 41px;
+                height: 31px;
+                margin: 5px 1px -11px -51px;
+                padding: 1px;
+            }
+        
+            #btn {
+                align-items: center;
+                width: 150px;
+                height: 31px;
+                margin: 28px 1px 1px 110px;
+                border-radius: 5px;
+                font-size: 25px;
+                background-color: goldenrod;
+                    color: white;
+                    transform-origin: .3s;
+                    border-color: goldenrod;
+            }
+}

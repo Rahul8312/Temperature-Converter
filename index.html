@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    <div class="main">
+        
+        <div class="form">
+            <form action="_get">
+               <div class="title">
+               <h2>Temperature Converter</h2>
+               <span class="Te"><img src="pngegg.png" alt="no img "></span>
+               </div>
+
+                <div id="celcius">
+                <input type="number" id="Celcius" pattern="^[^0-9]+$" placeholder="Celcius" maxlength="4">
+                <span><img src="c1.png" alt="no img"></span>
+                </div>
+
+                <div id="fahrenheit">
+                <input type="number" id="Fahrenheit" value="number" pattern="^[^0-9]+$" placeholder="Fahrenheit" maxlength="4">
+                <span><img src="f.png" alt="no img"></span>
+                </div>
+
+                <div id="kelvin">
+                <input type="number" value="number" id="Kelvin" pattern="^[^0-9]+$" placeholder="Kelvin" maxlength="4">
+                <span><img src="k.png" alt=" no img "></span>
+                </div>
+                 <div id="button">
+                <input type="button" value="Reset" id="btn">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="converter.js">js</script>
+
+</body>
+</html>
